@@ -51,7 +51,14 @@ export LT_ACCESS_KEY="<your TestMu AI access key>"
 mvn test
 ```
 
-(On Windows PowerShell: `$env:LT_USERNAME = "..."` / `$env:LT_ACCESS_KEY = "..."`.)
+On Windows PowerShell:
+
+```powershell
+cd C:\Users\L129771\Documents\playwright-java-cert
+$env:LT_USERNAME = "<your TestMu AI username>"
+$env:LT_ACCESS_KEY = "<your TestMu AI access key>"
+mvn test
+```
 
 Get your access key from your TestMu AI / LambdaTest account's Profile page.
 
